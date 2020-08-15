@@ -1,7 +1,7 @@
 public class Employee {
-    private String Name;
-    private Integer Hours;
-    private double valuePerHour;
+    protected String Name;
+    protected Integer Hours;
+    protected double valuePerHour;
     public Employee(){}
     public Employee(String name, Integer hours, double valuePerHour) {
         Name = name;
@@ -37,4 +37,5 @@ public class Employee {
         value = this.valuePerHour*this.Hours;
         System.out.println(value);
     }
+
 }
